@@ -67,7 +67,7 @@ public class ExcelDealTools {
 				for (String fileName : baseData.keySet()) {
 					Field f = t.getClass().getDeclaredField(fileName);
 					f.setAccessible(true);
-					System.out.println("value:" + f.get(t));	
+//					System.out.println("value:" + f.get(t));	
 					Object key = f.get(t);
 					Map<String,String> maps = baseData.get(fileName);//获取maps
 					f.set(t, maps.get(key));
