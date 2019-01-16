@@ -15,5 +15,10 @@ public class ExcelName {
 	
 	@Excel(name="姓名")
 	private String name;
+	
+	@Excel(name="序号")
+	private Integer index;
+
+	private String  age;
 
 }

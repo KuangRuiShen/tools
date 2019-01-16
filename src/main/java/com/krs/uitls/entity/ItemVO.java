@@ -1,7 +1,5 @@
 package com.krs.uitls.entity;
 
-import cn.afterturn.easypoi.excel.annotation.Excel;
-
 /**
  * @author krs
  * @date 创建时间2017年7月31日 下午5:32:49 
