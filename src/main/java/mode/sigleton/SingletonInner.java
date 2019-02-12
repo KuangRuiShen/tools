@@ -24,7 +24,7 @@ public class SingletonInner {
         return SingletonHolder.instance;  
     }  
   
-    protected void method() {  
+    public void method() {  
         System.out.println("SingletonInner");  
     }
 
