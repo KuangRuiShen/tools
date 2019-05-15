@@ -11,8 +11,8 @@ public class SingletonInner {
      * 内部类实现单例模式 
      * 延迟加载，减少内存开销   
      */  
-    private static class SingletonHolder {  
-        private static SingletonInner instance = new SingletonInner();  
+    private static class SingletonHolder { 
+        private static SingletonInner instance = new SingletonInner(); 
     }  
   
     /** 
