@@ -76,6 +76,7 @@ public class GetControllerUrlUtils {
 				}
 //				output.write("\n".getBytes());
 			}
+			output.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
